@@ -1,0 +1,153 @@
+.parent{
+    padding-top: 50px;
+    position: relative;
+    background-image: url(../../assets/2312232.webp);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+.child{
+    left: -150px;
+    position: absolute;
+  
+}
+.child2{
+    /* position: absolute; */
+    margin-left: 450px;
+}
+
+img{
+    text-align: center;
+    width: 70px;
+}
+.txt{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .icon{
+    margin-top: 10px;
+    margin-left: 130px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+} */
+.input{
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 3px;
+    /* border: none; */
+    /* outline: none; */
+    color: inherit;
+    border: 1px solid rgb(242, 179, 6);
+    background-color: white;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(210, 164, 25);
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    color: rgb(255, 200, 0);
+    border: 2px solid  rgb(255, 183, 0);
+}
+a{
+    color: rgb(190, 210, 9);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 880px;
+    padding-top: -300px;
+}
+
+.b1{
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+.main{
+    height: 500px;
+    width: 400px;
+    border-radius: 20PX;
+    background-color: rgb(232, 225, 146);
+    margin-top: -580px;
+    margin-left: 465px;
+    border: 2px solid rgb(236, 190, 40);
+}
+.icon{
+    height: 130px;
+    width: 130px;
+    background-image: url(../../assets/icon.jfif);
+    margin-top: -585px;
+    margin-left: 605px;
+    border: 2px solid rgb(236, 190, 40) ;
+    border-radius: 100%;
+    background-size: cover;
+
+}
+
+h1{
+    color: rgb(182, 170, 59);
+    margin-left: 800px;
+}
+
+.logout_btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: yellow;
+    float: right;
+    cursor: pointer;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.logout_btn:hover {
+    background-color: white;
+
+}
+.dlt_btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: yellow;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.dlt_btn:hover {
+    background-color:white;
+    color: rgb(0, 0, 0);
+    border: 2px solid,yellow;
+
+}
+.style1{
+    opacity: 0;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    padding-top: 40px;
+    border-bottom: 5px solid yellow;
+}
+.views{
+    margin-left: 680px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    color: yellow;
+}

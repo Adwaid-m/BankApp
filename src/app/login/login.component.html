@@ -1,0 +1,25 @@
+
+<div class="b1"></div>
+    <div class="center"></div>
+    <div class="center1"></div>
+    <div class="main">
+        <form [formGroup]="loginForm" action="" class="p-5">
+            <h2 align="center">My Bank</h2>
+            <input formControlName="acno" type="text" id="reg_acno" class=" form-control  border border-warning mt-3 fa-solid fa-user" [placeholder]="accountNo">
+            <div style="color: red;" *ngIf="this.loginForm.get('acno')?.errors && this.loginForm.get('acno')?.touched" >
+                Invalid account number
+            </div>
+            <input formControlName="pswd" type="password" id="reg_pswd" class="form-control  border border-warning mt-4 fa-solid fa-key" [placeholder]="password">
+            <div style="color: red;" *ngIf="this.loginForm.get('pswd')?.errors && this.loginForm.get('pswd')?.touched" >
+                Invalid password
+            </div>
+            <label for=""><a class="text-decoration-none " href="#">forgot password?</a></label>
+            <div class="d-grid gap-2">
+                <button value="Login" (click)="login()" class="form-control  mt-4 " style="background-color:rgb(236, 190, 40) ;">login </button>
+            </div>
+            <div></div>
+            <br><br>
+            <label align="center" for="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Don't have account? <a routerLink="register">sign up</a></label>
+        </form>
+    </div>
+    <div class="icon"></div>

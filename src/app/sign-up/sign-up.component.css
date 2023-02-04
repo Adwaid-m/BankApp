@@ -1,0 +1,26 @@
+.b1{
+    height: 820px;
+    width: 100%;
+    background-image: url(../../assets/2312232.webp);
+    background-size: cover;
+}
+.main{
+    height: 500px;
+    width: 400px;
+    border-radius: 20PX;
+    background-color: rgb(255, 255, 255);
+    margin-top: -580px;
+    margin-left: 600px;
+    border: 2px solid rgb(236, 190, 40);
+}
+.icon{
+    height: 130px;
+    width: 130px;
+    background-image: url(../../assets/icon.jfif);
+    margin-top: -585px;
+    margin-left: 730px;
+    border: 2px solid rgb(236, 190, 40) ;
+    border-radius: 100%;
+    background-size: cover;
+
+}

@@ -1,0 +1,27 @@
+
+
+<div class="b1"></div>
+    <div class="main">
+        <form [formGroup]="registerForm" class="p-5">
+            <h2 align="center">My Bank</h2>
+            <input formControlName="uname" type="text" id="reg_name" class=" form-control  border border-warning mt-3 fa-solid fa-user" placeholder="Enter Username">
+            <div style="color: red;" *ngIf="this.registerForm.get('uname')?.errors && this.registerForm.get('uname')?.touched" >
+                Invalid username
+            </div>
+            <input formControlName="acno" type="text" id="reg_acno" class=" form-control  border border-warning mt-3 fa-solid fa-user" placeholder=" Account Number">
+            <div style="color: red;" *ngIf="this.registerForm.get('acno')?.errors && this.registerForm.get('acno')?.touched" >
+                Invalid account number
+            </div>
+            <input formControlName="pswd" type="password" id="reg_pswd" class="form-control  border border-warning mt-4 fa-solid fa-key" placeholder="Enter Password ">
+            <div style="color: red;" *ngIf="this.registerForm.get('pswd')?.errors && this.registerForm.get('pswd')?.touched" >
+                Invalid password
+            </div>  
+            <div class="d-grid gap-2">
+                <button value="Login" (click)="register()" class="form-control  mt-4 " style="background-color:rgb(236, 190, 40) ;">SIGNUP</button>
+            </div>
+            <div></div>
+            <br>
+            <label align="center" for="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a routerLink="">sign in</a></label>
+        </form>
+    </div>
+    <div class="icon"></div>
